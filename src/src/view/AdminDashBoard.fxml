@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashBoardContext" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.AdminDashBoardController">
+   <children>
+      <Button layoutX="137.0" layoutY="192.0" mnemonicParsing="false" onAction="#openWindowRoomOnAction" prefHeight="44.0" prefWidth="170.0" style="-fx-background-radius: 1.5EM; -fx-background-color: #17c0eb;" text="APARTMENTS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="25.0" radius="12.0" width="25.0" />
+         </effect>
+      </Button>
+      <Button layoutX="555.0" layoutY="192.0" mnemonicParsing="false" onAction="#openWindowMealOnAction" prefHeight="44.0" prefWidth="170.0" style="-fx-background-radius: 1.5EM; -fx-background-color: #17c0eb;" text="RESTAURANTS">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="25.0" radius="12.0" width="25.0" />
+         </effect>
+      </Button>
+      <Button layoutX="972.0" layoutY="192.0" mnemonicParsing="false" onAction="#openWindowIncomeOnAction" prefHeight="44.0" prefWidth="170.0" style="-fx-background-radius: 1.5EM; -fx-background-color: #17c0eb;" text="INCOME">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow height="25.0" radius="12.0" width="25.0" />
+         </effect>
+      </Button>
+      <ImageView fitHeight="200.0" fitWidth="283.0" layoutX="80.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <DropShadow height="30.0" radius="14.5" width="30.0" />
+         </effect>
+      </ImageView>
+      <Button layoutX="1041.0" layoutY="44.0" mnemonicParsing="false" onAction="#logOutHomeOnAction" prefHeight="48.0" prefWidth="180.0" style="-fx-background-radius: 2.0EM; -fx-background-color: #6c5ce7;" text=" LOG OUT ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <ImageView fitHeight="200.0" fitWidth="283.0" layoutX="508.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <DropShadow height="30.0" radius="14.5" width="30.0" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="283.0" layoutX="905.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <DropShadow height="30.0" radius="14.5" width="30.0" />
+         </effect>
+      </ImageView>
+      <Label layoutX="414.0" layoutY="482.0" text="STAR TRIP" textFill="#33b6cd">
+         <font>
+            <Font name="System Bold Italic" size="96.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="623.0" text="YOUR THE BEST CHOICE!" textFill="#19a835">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="414.0" layoutY="22.0" text="WELCOME" textFill="#2a7a86">
+         <font>
+            <Font name="System Bold Italic" size="96.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
